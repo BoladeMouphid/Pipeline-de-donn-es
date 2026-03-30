@@ -24,10 +24,15 @@ Ce projet présente un pipeline de données ETL pour automatiser le traitement d
 <img width="819" height="519" alt="image" src="https://github.com/user-attachments/assets/be4a46e6-ec90-4b81-898d-1b5e6c331718" />
 
 **Outils technologiques utilisés**
-**Apache Airflow**: Orchestrateur du flux ETL 
+
+**Apache Airflow**: Orchestrateur du flux ETL
+
 **Docker**: Conteunerisation d'apache airflow 
-**Python**: Moteur de traitement des données 
+
+**Python**: Moteur de traitement des données
+
 **PostgreSQL**: Systeme de stockage des données 
+
 **Streamlit**: Visualisation interactive et interface utilisateur 
 
 
