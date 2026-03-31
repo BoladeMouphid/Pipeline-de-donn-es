@@ -35,10 +35,14 @@ Ce projet présente un pipeline de données ETL pour automatiser le traitement d
 **MISE EN OEUVRE DE LA SOLUTION**
 
 **1- INSTALLATIONS ET PREREQUIS**  
--Docker, 
--docker compose, 
+-Docker,
+
+-docker compose,
+
 -python 3.10+,
+
 -PostgreSQL,
+
 -Une distribution linux sous windows comme environnement de travail (Ubuntu, WSL2, etc...).
 
 **2- CREATION DES REPERTOIRE POUR AIRFLOW**
@@ -47,20 +51,28 @@ Ce projet présente un pipeline de données ETL pour automatiser le traitement d
 L’espace de travail est constitué d’un repertoire principal Airflow-docker contenant plusieurs sous repertoires. Cette organisation favorise une meilleure lisibilité du pipeline automatisé, une traçabilité complète des traitements ainsi qu’une évolutivité de la solution. Chaque composant peut être modifié ou amélioré indépendamment des autres, sans impacter l’ensemble du système.
 
 Rôle des principaux répertoires
+
 •	dags/
 Ce répertoire contient les DAGs Apache Airflow. Le fichier pca_pipeline_complet définit l’enchaînement des tâches du pipeline , assurant l’orchestration complète du processus de traitement.
+
 •	scripts/
 Il regroupe les scripts Python implémentant la logique métier appliqué au differentes tables. 
+
 •	data/input/
 Ce dossier contient les fichiers de données sources, notamment les ratios financiers (ratios) et les fichiers de classification utilisés lors des traitements (classification).
+
 •	data/output/
 Il stocke les fichiers générés par le pipeline, tels que les scores et les tableaux de synthèse, qui constituent les livrables finaux destinés aux utilisateurs.
+
 •	docker-compose.yaml
 Ce fichier définit l’ensemble des services indispensables au fonctionnement d’Apache Airflow (scheduler, webserver, workers, base de données des métadonnées). Il garantit un déploiement cohérent et reproductible de l’environnement Airflow.
+
 •	plugins/
 Ce répertoire est destiné à contenir des composants personnalisés d’Apache Airflow, tels que des opérateurs, capteurs ou hooks spécifiques. Son utilisation permet d’étendre les fonctionnalités natives d’Airflow.
+
 •	logs/
 Le dossier logs centralise l’ensemble des journaux générés lors de l’exécution des tâches du pipeline. Il joue un rôle essentiel dans le suivi des traitements, la détection des erreurs et l’analyse des incidents techniques.
+
 •	config/
 Ce répertoire regroupe les fichiers de configuration du système, notamment les paramètres d’Airflow, les variables d’environnement et les éléments liés à la sécurité. 
 
