@@ -77,8 +77,9 @@ Le dossier logs centralise l’ensemble des journaux générés lors de l’exé
 Ce répertoire regroupe les fichiers de configuration du système, notamment les paramètres d’Airflow, les variables d’environnement et les éléments liés à la sécurité. 
 
 
-Une fois l'implementation des scripts terminée on se connecte a l'ui d'apache airflow et executer notre DAG 
-Commande pour demarrer les services airflow 
+Une fois l'implementation des scripts terminée on se connecte a l'ui d'apache airflow et executer notre DAG
+
+**Commande pour demarrer les services airflow** 
 
 1- initialiser airflow
 
