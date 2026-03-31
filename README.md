@@ -131,7 +131,7 @@ L'interface utilisateur a été developpée a l'aide de streamlit pour permettre
 
 Note: Comme vous povez le constater sur l'immage , l'utilisateur charge un fichier "ratios" constituant le fichier souce en suite une fois le fichier chargé , il lance le traitement au cous duquel il sera redirigé automatiquement vers l'UI d'airflow pour declencher le DAG et une fois le DAG executé , il peut visualiser les graphiques analytiques(selectionner les differentes piriodes qu'il désire visualiser)  puis telecharger l'ensemble des fichers génerés sous format archive ZIP puis ensuite effectuer des filtres sur les differents institutions de microfinances en fonction de leurs situatuions par rappport aux differents indicateurs financiers.
 
-NB: Pour des raisions de confidentialités je ne pourrai pas mettre a disposition le code source de ce projet
+NB: Pour des raisions de confidentialité je ne pourrai pas mettre a disposition le code source de ce projet
 
 Merci pour la comprehension !!!
 
