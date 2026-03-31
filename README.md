@@ -12,7 +12,7 @@ Ce projet présente un pipeline de données ETL pour automatiser le traitement d
 
 **Contexte :** Mémoire de fin d'études - ESMT Dakar (2025) pour l'obtention du diplome d'Ingenieur de conception des Telecommunications spécialisé en Ingenierie des données et Intelligence Artificielle 
 
-**Problématique :** La DRS SFD s'appuie sur un systeme d'alerte precoce (SAP) pour la supervision financiere des instittions de microfinance mais le système existant repose sur Excel avec des traitements manuels, entraînant :
+**Problématique :** La DRS SFD s'appuie sur un systeme d'alerte precoce (SAP) pour la supervision financiere des institutions de microfinance mais le système existant repose sur Excel avec des traitements manuels, entraînant :
 - Risque élevé d'erreurs
 - Temps de traitement long
 - Absence de traçabilité
