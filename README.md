@@ -104,6 +104,7 @@ La figure ci-dessous illustre l’exécution du DAG du pipeline automatisé dép
 
 
 
+
 **INTERFACE UTILISATEUR**
 
 L'interface utilisateur a été developpée a l'aide de streamlit pour permettre une utilisation facile de la solution proposéé. Cette interface permet a l'utilisateur de :
@@ -116,7 +117,8 @@ L'interface utilisateur a été developpée a l'aide de streamlit pour permettre
 
 4- Telecharger les fichiers generés 
 
-5- Filter les differnets institutions de micrifiance en fonction de leurs situation par rapports aux differents indicateurs financiers 
+5- Filter les differentes institutions de micrifiance en fonction de leurs situation par rapports aux differents indicateurs financiers.
+
 
 **APPERCU DE L'INTERFACE UTILISATEUR**
 
