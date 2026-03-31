@@ -50,7 +50,7 @@ Ce projet présente un pipeline de données ETL pour automatiser le traitement d
 
 L’espace de travail est constitué d’un repertoire principal Airflow-docker contenant plusieurs sous repertoires. Cette organisation favorise une meilleure lisibilité du pipeline automatisé, une traçabilité complète des traitements ainsi qu’une évolutivité de la solution. Chaque composant peut être modifié ou amélioré indépendamment des autres, sans impacter l’ensemble du système.
 
-Rôle des principaux répertoires
+**Rôle des principaux répertoires**
 
 •	dags/
 Ce répertoire contient les DAGs Apache Airflow. Le fichier pca_pipeline_complet définit l’enchaînement des tâches du pipeline , assurant l’orchestration complète du processus de traitement.
@@ -75,6 +75,33 @@ Le dossier logs centralise l’ensemble des journaux générés lors de l’exé
 
 •	config/
 Ce répertoire regroupe les fichiers de configuration du système, notamment les paramètres d’Airflow, les variables d’environnement et les éléments liés à la sécurité. 
+
+
+Une fois l'implementation des scripts terminée on se connecte a l'ui d'apache airflow et executer notre DAG 
+Commande pour demarrer les services airflow 
+
+1- initialiser airflow 
+docker compose up airflow-init
+
+2-Demarrer tous les services d'airflow 
+sudo docker compose up -d
+
+3-Verifier l'etat des services (tous les services doivent etre en mode "up")
+udo docker compose ps 
+
+4-Acceder a l'interface d'airflow  
+URL : http://localhost:8080
+Login / mot de passe : airflow / airflow
+
+5- Execution du DAG  
+La figure ci-dessous illustre l’exécution du DAG du pipeline automatisé déployé pour le traitement des données du système d’alerte précoce de la DRS, montrant que l’ensemble des tâches a été exécuté avec succès, validant la robustesse et la fiabilité du pipeline automatisé.
+
+<img width="945" height="501" alt="image" src="https://github.com/user-attachments/assets/e554c4c1-4cbf-43d8-8827-691a52952dbc" />
+
+
+
+
+
 
 
 
