@@ -1,4 +1,4 @@
-# Pipeline-de-donn-es
+# Automatisation du SAP de la DRS-SFD
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)]()
 [![Airflow](https://img.shields.io/badge/Apache%20Airflow-2.7-red)]()
@@ -8,7 +8,7 @@
 
 ## 📋 À propos du projet
 
-Ce projet présente un pipeline de données ETL pour automatiser le traitement des données financiers dans le cadre de la supervision prudentielle des institutions de microfinance de la Direction de la Reglementation et de la Supervision des Systemes Financiers decentralisés (DRS-SFD).
+Ce projet présente un pipeline de données ETL pour automatiser le traitement des données financiers du Systeme d'alerte précoce (SAP) dans le cadre de la supervision prudentielle des institutions de microfinance de la Direction de la Reglementation et de la Supervision des Systemes Financiers decentralisés (DRS-SFD).
 
 **Contexte :** Mémoire de fin d'études - ESMT Dakar (2025) pour l'obtention du diplome d'Ingenieur de conception des Telecommunications spécialisé en Ingenierie des données et Intelligence Artificielle 
 
