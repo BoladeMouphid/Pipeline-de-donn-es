@@ -80,7 +80,7 @@ Ce répertoire regroupe les fichiers de configuration du système, notamment les
 Une fois l'implementation des scripts terminée on se connecte a l'ui d'apache airflow et executer notre DAG
 
 **Commande pour demarrer les services airflow** 
-```bash
+
 1- initialiser airflow
 
 docker compose up airflow-init
