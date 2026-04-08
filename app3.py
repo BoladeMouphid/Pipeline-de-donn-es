@@ -94,7 +94,7 @@ if file:
     
     with col1:
         # Lien vers Airflow
-        airflow_url = "http://localhost:8080/dags/pca_pipeline_complet/"  # ⚠️ Remplacez 'sap_pipeline' par le vrai nom de votre DAG
+        airflow_url = "http://localhost:8080/dags/pca_pipeline_complet/"  
         
         st.markdown(
             f"""
